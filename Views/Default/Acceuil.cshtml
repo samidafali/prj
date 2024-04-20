@@ -1,0 +1,109 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.CategoriesTraductions>
+<link href="~/Css/Acceuil.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    if (ViewBag.TraduitAcceuils != null)
+    {
+        foreach (var infoPage in ViewBag.TraduitAcceuils)
+        {
+            <div class="form-horizontal">
+                <header>
+                    <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+                        <div class="container-fluid">
+
+                            <a class="navbar-brand" href="#">
+                                <img src="../image/Epicerie.png" alt="logo" style="width: 100px; height: auto;">
+                            </a>
+
+                            <span id="txtLogo" style="font-size:21px">  TEC-EPIC </span>
+
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="navbar-nav">
+
+
+
+                                    @foreach (var item in Model)
+                                    {
+
+                                        <li class="nav-item">
+                                            @Html.ActionLink(item.NameTraduction, "AfficherProduits", "Default", new { id = item.IdCategorie, IdLangue = item.IdLangue }, new { @class = "btn btn-primary" })
+                                        </li>
+                                    }
+
+                                    <li class="nav-item">
+                                        <a href="@Url.Action("Deconnexion", "Default")" class="btn btn-primary"> @infoPage.btnDeconnecter</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="navbar-nav">
+                                    <li>
+                                        <a href="@Url.Action("Panier", "Default")" class="btn btn-info">
+                                            <i class="bi bi-cart4"></i>
+                                            <span>
+                                                @if (ViewBag.nbPanier != null)
+                                                { 
+                                                    @ViewBag.nbPanier
+                                                }
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <ul class="navbar-nav">
+
+                                    @if (ViewBag.Langue != null)
+                                    {
+                                        foreach (var lang in ViewBag.Langue)
+                                        {
+                                            <li class="nav-item">
+                                                <div class="boite3">
+                                                    <a href="@Url.Action("Acceuil", "Default", new { IdLangue = lang.IdLangue })">@lang.Symbole</a>
+                                                </div>
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </nav>
+                </header>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <table>
+                    <tr>
+                        <td>
+                            <img src="https://images.radio-canada.ca/q_auto,w_1200/v1/ici-info/16x9/epicerie-supermarche-alimentation.jpg" class="image1" alt="epicerie" style="width:700px; height: 400px;">
+
+                        </td>
+                        <td style="vertical-align:top; padding:20px">
+                            <p style="text-align: justify">
+                                @infoPage.txt1
+                            </p>
+                            <p style="text-align: justify">
+                                @infoPage.txt2
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+            </div>
+
+        }
+    }
+}
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+

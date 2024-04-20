@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.PagePanier>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Langue.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Totapayer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomProduit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantité)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrixUnitaire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Action)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.btnDeconncter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.btnModifier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.btnSupprimer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Langue.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Totapayer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomProduit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantité)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrixUnitaire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Action)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.btnDeconncter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.btnModifier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.btnSupprimer)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdPagePanier }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdPagePanier }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdPagePanier })
+        </td>
+    </tr>
+}
+
+</table>

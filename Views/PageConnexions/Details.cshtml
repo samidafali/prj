@@ -1,0 +1,74 @@
+﻿@model ProjetEpîcerie.Models.PageConnexion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PageConnexion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Langue.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Langue.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TitreSite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TitreSite)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnDescon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnDescon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnInscrire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnInscrire)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnConnecter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnConnecter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LableNom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LableNom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LabMotPasse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LabMotPasse)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdPageConnexion }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

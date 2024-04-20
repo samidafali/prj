@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.PageInscription>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Langue.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TitreSite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BtnDescon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BtnInscrire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BtnConnecter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lblNomUtilisateur)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LabMotPasse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lblNom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lblTélephone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lblAdresse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lblEmail)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Langue.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TitreSite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BtnDescon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BtnInscrire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BtnConnecter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lblNomUtilisateur)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LabMotPasse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lblNom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lblTélephone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lblAdresse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lblEmail)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdPageInscription }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdPageInscription }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdPageInscription })
+        </td>
+    </tr>
+}
+
+</table>

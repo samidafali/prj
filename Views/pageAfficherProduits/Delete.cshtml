@@ -1,0 +1,56 @@
+﻿@model ProjetEpîcerie.Models.pageAfficherProduits
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>pageAfficherProduits</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Langue.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Langue.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnDescon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnDescon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnVoir)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnVoir)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnAjoutPanier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnAjoutPanier)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

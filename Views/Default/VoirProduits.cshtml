@@ -1,0 +1,124 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.ProduitsTraductions>
+<link href="~/Css/Acceuil.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    if (ViewBag.pageAfficherProduits != null)
+    {
+        foreach (var infoPage in ViewBag.pageAfficherProduits)
+        {
+
+                <div class="form-horizontal">
+                    <header>
+                        <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+                            <div class="container-fluid">
+
+                                <a href="#">
+                                    <img src="http://localhost:55503/image/Epicerie.png" alt="logo" style="width: 100px; height: auto;">
+                                </a>
+                                <span id="txtLogo" style="font-size:21px">  TEC-EPIC </span>
+                                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                    <ul class="navbar-nav">
+                                        @if (ViewBag.Langue != null)
+                                        {
+                                            foreach (var item in ViewBag.Categories)
+                                            {
+
+                                                <li class="nav-item">
+                                                    <a href="@Url.Action("AfficherProduits", "Default", new { id = item.IdCategorie, IdLangue = item.IdLangue })" class="btn btn-primary"> @item.NameTraduction</a>
+                                                </li>
+                                            }
+
+                                        }
+                                        <li class="nav-item">
+                                            <a href="@Url.Action("Deconnexion", "Default")" class="btn btn-primary"> @infoPage.BtnDescon</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="navbar-nav">
+                                        <li>
+                                            <a href="@Url.Action("Panier", "Default")" class="btn btn-info">
+                                                <i class="bi bi-cart4"></i>
+                                                <span>
+                                                    @if (ViewBag.nbPanier != null)
+                                                    {
+                                                        @ViewBag.nbPanier
+                                                    }
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                    <ul class="navbar-nav">
+
+                                        @if (ViewBag.Langue != null)
+                                        {
+                                            foreach (var lang in ViewBag.Langue)
+                                            {
+                                                <li class="nav-item">
+                                                    <div class="boite3">
+                                                        <a href="#">@lang.Symbole</a>
+                                                    </div>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </header>
+                    @foreach (var element in Model)
+                    {
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="@element.urlImageTraductions" class="card-img-top custom-card-image" alt="Waterfall" style="width:600px; height: 400px;">
+                                </td>
+                                <td style="vertical-align:top">
+                                    <div class="card-body" style="width:100%; height: 320px;">
+                                        <div style="width:100%; height:160px">
+                                            <h5 class="card-title" id="titre1" style="font-weight:bold">@element.NomTraductions</h5>
+                                            <p class="card-text custom-card-text">@element.DescriptionTraductions</p>
+
+                                        </div>
+                                        <p id="prix" style="font-weight:bold">@element.PrixTraductions $CAD</p>
+                                        <div style="margin-top:5px">
+                                            <a href="@Url.Action("AjouterPanier", "Default", new { id = @element.Produits.IdProduits, IdLangue = @element.IdLangue })" class="btn btn-primary">@infoPage.BtnAjoutPanier</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                    }
+
+
+
+
+                </div>
+        }
+    }
+}
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+

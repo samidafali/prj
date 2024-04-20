@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.Categorie>
+<link href="~/Css/Acceuil.css" rel="stylesheet" />
+
+
+<p>
+    Acceuil
+</p>
+<div id="langue">
+    @if (ViewBag.Langue != null)
+    {
+        foreach (var lang in ViewBag.Langue)
+        {
+            <div class="lang-link">
+                <a href="@Url.Action("Acceuil", "Categories", new { id = lang.IdLangue })">@lang.Symbole</a>
+            </div>
+
+
+        }
+         
+    }
+</div>
+
+
+<table class="table">
+
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(item.Name, "AfficherProduits", "Produits", new { id = item.IdCategorie , IdLangue = item.IdLangue}, new { @class = "cat" })
+            </td>
+        </tr>
+    }
+
+
+</table>

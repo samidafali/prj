@@ -1,0 +1,287 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8626595F-5043-4B66-B5F1-728BD8EC9D0E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetEpîcerie</RootNamespace>
+    <AssemblyName>ProjetEpîcerie</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.9\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.9\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Site.css" />
+    <Content Include="Css\Acceuil.css" />
+    <Content Include="Global.asax" />
+    <Content Include="image\Epicerie.png" />
+    <Content Include="JS\script.jsx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdministrateurController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\CategoriesTraductionsController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\InscriptionsController.cs" />
+    <Compile Include="Controllers\LanguesController.cs" />
+    <Compile Include="Controllers\LoginsController.cs" />
+    <Compile Include="Controllers\pageAfficherProduitsController.cs" />
+    <Compile Include="Controllers\PageConnexionsController.cs" />
+    <Compile Include="Controllers\PageInscriptionsController.cs" />
+    <Compile Include="Controllers\PagePaniersController.cs" />
+    <Compile Include="Controllers\PaniersController.cs" />
+    <Compile Include="Controllers\ProduitsController.cs" />
+    <Compile Include="Controllers\ProduitsTraductionsController.cs" />
+    <Compile Include="Controllers\TraduitAcceuilsController.cs" />
+    <Compile Include="Controllers\UtilisateursController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Categorie.cs" />
+    <Compile Include="Models\CategoriesTraductions.cs" />
+    <Compile Include="Models\Inscription.cs" />
+    <Compile Include="Models\Langue.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\LoloEpicerieDb.cs" />
+    <Compile Include="Models\pageAfficherProduits.cs" />
+    <Compile Include="Models\PageConnexion.cs" />
+    <Compile Include="Models\PageInscription.cs" />
+    <Compile Include="Models\PagePanier.cs" />
+    <Compile Include="Models\PageUpdateQuantite.cs" />
+    <Compile Include="Models\Panier.cs" />
+    <Compile Include="Models\Produits.cs" />
+    <Compile Include="Models\ProduitsTraductions.cs" />
+    <Compile Include="Models\TraduitAcceuil.cs" />
+    <Compile Include="Models\Utilisateur.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <None Include="packages.config" />
+    <Content Include="Views\Default\connexion.cshtml" />
+    <Content Include="Views\Default\Inscription.cshtml" />
+    <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Langues\Create.cshtml" />
+    <Content Include="Views\Langues\Delete.cshtml" />
+    <Content Include="Views\Langues\Details.cshtml" />
+    <Content Include="Views\Langues\Edit.cshtml" />
+    <Content Include="Views\Langues\Index.cshtml" />
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\CategoriesTraductions\Create.cshtml" />
+    <Content Include="Views\CategoriesTraductions\Delete.cshtml" />
+    <Content Include="Views\CategoriesTraductions\Details.cshtml" />
+    <Content Include="Views\CategoriesTraductions\Edit.cshtml" />
+    <Content Include="Views\CategoriesTraductions\Index.cshtml" />
+    <Content Include="Views\Categories\Acceuil.cshtml" />
+    <Content Include="Views\Produits\Create.cshtml" />
+    <Content Include="Views\Produits\Delete.cshtml" />
+    <Content Include="Views\Produits\Details.cshtml" />
+    <Content Include="Views\Produits\Edit.cshtml" />
+    <Content Include="Views\Produits\Index.cshtml" />
+    <Content Include="Views\Produits\AfficherProduits.cshtml" />
+    <Content Include="Views\Produits\VoirProduits.cshtml" />
+    <Content Include="Views\ProduitsTraductions\Create.cshtml" />
+    <Content Include="Views\ProduitsTraductions\Delete.cshtml" />
+    <Content Include="Views\ProduitsTraductions\Details.cshtml" />
+    <Content Include="Views\ProduitsTraductions\Edit.cshtml" />
+    <Content Include="Views\ProduitsTraductions\Index.cshtml" />
+    <Content Include="Views\Produits\AjouterPanier.cshtml" />
+    <Content Include="Views\Default\Deconnexion.cshtml" />
+    <Content Include="Views\PageConnexions\Create.cshtml" />
+    <Content Include="Views\PageConnexions\Delete.cshtml" />
+    <Content Include="Views\PageConnexions\Details.cshtml" />
+    <Content Include="Views\PageConnexions\Edit.cshtml" />
+    <Content Include="Views\PageConnexions\Index.cshtml" />
+    <Content Include="Views\PageInscriptions\Create.cshtml" />
+    <Content Include="Views\PageInscriptions\Delete.cshtml" />
+    <Content Include="Views\PageInscriptions\Details.cshtml" />
+    <Content Include="Views\PageInscriptions\Edit.cshtml" />
+    <Content Include="Views\PageInscriptions\Index.cshtml" />
+    <Content Include="Views\Default\Acceuil.cshtml" />
+    <Content Include="Views\Default\AfficherProduits.cshtml" />
+    <Content Include="Views\Default\VoirProduits.cshtml" />
+    <Content Include="Views\Default\AjouterPanier.cshtml" />
+    <Content Include="Views\TraduitAcceuils\Create.cshtml" />
+    <Content Include="Views\TraduitAcceuils\Delete.cshtml" />
+    <Content Include="Views\TraduitAcceuils\Details.cshtml" />
+    <Content Include="Views\TraduitAcceuils\Edit.cshtml" />
+    <Content Include="Views\TraduitAcceuils\Index.cshtml" />
+    <Content Include="Views\pageAfficherProduits\Create.cshtml" />
+    <Content Include="Views\pageAfficherProduits\Delete.cshtml" />
+    <Content Include="Views\pageAfficherProduits\Details.cshtml" />
+    <Content Include="Views\pageAfficherProduits\Edit.cshtml" />
+    <Content Include="Views\pageAfficherProduits\Index.cshtml" />
+    <Content Include="Views\Default\Panier.cshtml" />
+    <Content Include="Views\Default\Edit.cshtml" />
+    <Content Include="Views\Default\Delete.cshtml" />
+    <Content Include="Views\Inscriptions\Create.cshtml" />
+    <Content Include="Views\Inscriptions\Delete.cshtml" />
+    <Content Include="Views\Inscriptions\Details.cshtml" />
+    <Content Include="Views\Inscriptions\Edit.cshtml" />
+    <Content Include="Views\Inscriptions\Index.cshtml" />
+    <Content Include="Views\Logins\Create.cshtml" />
+    <Content Include="Views\Logins\Delete.cshtml" />
+    <Content Include="Views\Logins\Details.cshtml" />
+    <Content Include="Views\Logins\Edit.cshtml" />
+    <Content Include="Views\Logins\Index.cshtml" />
+    <Content Include="Views\Utilisateurs\Create.cshtml" />
+    <Content Include="Views\Utilisateurs\Delete.cshtml" />
+    <Content Include="Views\Utilisateurs\Details.cshtml" />
+    <Content Include="Views\Utilisateurs\Edit.cshtml" />
+    <Content Include="Views\Utilisateurs\Index.cshtml" />
+    <Content Include="Views\PagePaniers\Create.cshtml" />
+    <Content Include="Views\PagePaniers\Delete.cshtml" />
+    <Content Include="Views\PagePaniers\Details.cshtml" />
+    <Content Include="Views\PagePaniers\Edit.cshtml" />
+    <Content Include="Views\PagePaniers\Index.cshtml" />
+    <Content Include="Views\Paniers\Create.cshtml" />
+    <Content Include="Views\Paniers\Delete.cshtml" />
+    <Content Include="Views\Paniers\Details.cshtml" />
+    <Content Include="Views\Paniers\Edit.cshtml" />
+    <Content Include="Views\Paniers\Index.cshtml" />
+    <Content Include="Views\Administrateur\AcceuilAdministrateur.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55503</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55503/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

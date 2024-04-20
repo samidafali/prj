@@ -1,0 +1,50 @@
+﻿@model ProjetEpîcerie.Models.pageAfficherProduits
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>pageAfficherProduits</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Langue.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Langue.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnDescon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnDescon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnVoir)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnVoir)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BtnAjoutPanier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BtnAjoutPanier)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdpageAfficherProduits }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

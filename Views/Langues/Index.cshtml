@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.Langue>
+<link href="~/Css/Acceuil.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="../image/Epicerie.png" alt="logo" style="width: 100px; height: auto;">
+            </a>
+
+            <span id="txtLogo" style="font-size:21px">  TEC-EPIC </span>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="@Url.Action("Index", "Categories")" class="btn btn-primary">Catégories</a>
+                    </li>
+                    <li style="margin-left:10px">
+                        <a href="@Url.Action("Index", "CategoriesTraductions")" class="btn btn-primary">Catégories Traductions</a>
+                    </li>
+                    <li style="margin-left:10px">
+                        <a href="@Url.Action("Index", "Langues")" class="btn btn-primary"> Langues</a>
+                    </li>
+                    <li style="margin-left:10px">
+                        <a href="@Url.Action("Index", "Paniers")" class="btn btn-primary"> Paniers</a>
+                    </li>
+                    <li style="margin-left:10px">
+                        <a href="@Url.Action("Index", "Produits")" class="btn btn-primary"> Produits</a>
+                    </li>
+                    <li style="margin-left:10px">
+                        <a href="@Url.Action("Index", "ProduitsTraductions")" class="btn btn-primary"> Produits Traductions</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+<div class="div1">
+    <p class="titrePage">
+        Liste des Langues
+    </p>
+</div>
+
+<p>
+    <a href="@Url.Action("Create", "Langues")"> Create new</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Symbole)
+        </th>
+        <th>
+            Actions
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Symbole)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IdLangue }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IdLangue }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IdLangue })
+            </td>
+        </tr>
+    }
+
+</table>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+

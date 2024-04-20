@@ -1,0 +1,72 @@
+﻿@model IEnumerable<ProjetEpîcerie.Models.Produits>
+
+
+<link href="~/Css/Acceuil.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+@{
+    int idCategorie = Model.First().IdCategorie;//IdCategorie  du premier élément
+}
+@Html.Hidden("IdCategorie", idCategorie)
+
+
+<div id="langue">
+    @if (ViewBag.Langue != null)
+    {
+        foreach (var lang in ViewBag.Langue)
+        {
+            <div class="lang-link">
+                <a href="@Url.Action("AfficherProduits", "Produits", new { id = lang.IdLangue })">@lang.Symbole</a>
+            </div>
+        }
+    }
+</div>
+
+<div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner py-4">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    @foreach (var element in Model)
+                    {
+                        <div class="col-lg-3 mb-4">
+                            <div class="card my-custom-card">
+                                <img src="@element.urlImage" class="card-img-top custom-card-image" alt="Waterfall" style="width:100%; height: 150px;">
+                                <div class="card-body" style="width:100%; height: 320px;">
+                                    <div style="width:100%; height:190px">
+                                        <h5 class="card-title" id="titre1" style="font-weight:bold">@element.Nom</h5>
+                                        <p class="card-text custom-card-text">@element.Description</p>
+
+                                    </div>
+                                    <p id="prix" style="font-weight:bold">@element.Prix $CAD</p>
+                                    <div class="boite2">
+                                        <div class="lang-link">
+                                            @Html.ActionLink("Ajouter Panier", "AjouterPanier", new { id = @element.IdProduits, IdLangue = @element.IdLangue })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
