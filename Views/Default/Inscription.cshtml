@@ -1,153 +1,134 @@
 ﻿@model ProjetEpîcerie.Models.Inscription
-<link href="~/Css/Acceuil.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('../image/fond.jpg');
+            background-size: cover;
+            color: #000000; /* Noir */
+        }
 
+        .site-title {
+            background: linear-gradient(to right, #fdfd96, #ffff00); /* Dégradé de jaune */
+            text-align: center;
+            padding: 20px 0;
+        }
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-    if (ViewBag.PageInscriptions != null)
-    {
-        foreach (var infoPage in ViewBag.PageInscriptions)
-        {
-<div class="form-horizontal">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-white navbar-dark">
-            <div class="container-fluid">
+            .site-title h1 {
+                font-family: 'Arial Black', sans-serif; /* Police attirante */
+                margin-bottom: 0;
+                color: #000000; /* Noir */
+            }
 
-                <a class="navbar-brand" href="#">
-                    <img src="../image/Epicerie.png" alt="logo" style="width: 100px; height: auto;">
-                </a>
+        .form-container {
+            background-color: #fdfd96; /* Jaune pâle */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
 
-                <span id="txtLogo">  @infoPage.TitreSite </span>
+            .form-container label {
+                color: #000000; /* Noir */
+                font-weight: bold; /* En gras */
+            }
 
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <div class="boite1">
-                                <a href="@Url.Action("connexion", "Default")">@infoPage.BtnConnecter</a>
-                            </div>
+        .btn-inscrire {
+            background-color: #28a745; /* Vert */
+            border-color: #28a745; /* Vert */
+        }
+    </style>
+</head>
+<body>
+    <!-- Titre du site et logo -->
+    <div class="site-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../image/logo3.jpg" alt="Logo" style="width: 100px; height: auto;">
+                </div>
+                <div class="col-8">
+                    <h1>FARMERS MARKET</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        </li>
-                        <li class="nav-item">
-                            <div class="boite1">
-                                <a href="@Url.Action("Deconnexion", "Default")">@infoPage.BtnDescon</a>
-                            </div>
-
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-
-                        @if (ViewBag.Langue != null)
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-container">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        if (ViewBag.PageInscriptions != null)
                         {
-                            foreach (var lang in ViewBag.Langue)
+                            foreach (var infoPage in ViewBag.PageInscriptions)
                             {
-                                <li class="nav-item">
-                                    <div class="boite3">
-                                        <a href="@Url.Action("Inscription", "Default", new { IdLangue = lang.IdLangue })">@lang.Symbole</a>
+                                <form>
+                                    <h2 class="text-center mb-4">Inscription</h2>
+                                    <div class="form-group">
+                                        <label for="name">@infoPage.lblNom</label>
+                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", id = "name" } })
+                                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                                     </div>
-                                </li>
+
+                                    <!-- Téléphone -->
+                                    <div class="form-group">
+                                        <label for="phone">@infoPage.lblTélephone</label>
+                                        @Html.EditorFor(model => model.Telephone, new { htmlAttributes = new { @class = "form-control", id = "phone" } })
+                                        @Html.ValidationMessageFor(model => model.Telephone, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <!-- Adresse -->
+                                    <div class="form-group">
+                                        <label for="address">@infoPage.lblAdresse</label>
+                                        @Html.EditorFor(model => model.Adresse, new { htmlAttributes = new { @class = "form-control", id = "address" } })
+                                        @Html.ValidationMessageFor(model => model.Adresse, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="form-group">
+                                        <label for="email">@infoPage.lblEmail</label>
+                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @Type = "Email", id = "email" } })
+                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <!-- Nom d'utilisateur -->
+                                    <div class="form-group">
+                                        <label for="username">@infoPage.lblNomUtilisateur</label>
+                                        @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control", id = "username" } })
+                                        @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <!-- Mot de passe -->
+                                    <div class="form-group">
+                                        <label for="password">@infoPage.LabMotPasse</label>
+                                        @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", @Type = "password", id = "password" } })
+                                        @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-inscrire">@infoPage.BtnInscrire</button>
+                                    </div>
+                                </form>
                             }
                         }
-                    </ul>
+                    }
                 </div>
-
             </div>
-        </nav>
-    </header>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.lblNom
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
-        </div>
-        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
-    </div>
-
-
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.lblTélephone
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.Telephone, new { htmlAttributes = new { @class = "form-control" } })
-        </div>
-        @Html.ValidationMessageFor(model => model.Telephone, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.lblAdresse
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.Adresse, new { htmlAttributes = new { @class = "form-control" } })
-        </div>
-        @Html.ValidationMessageFor(model => model.Adresse, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.lblEmail
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @Type = "Email" } })
-        </div>
-        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.lblNomUtilisateur
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control" } })
-
-        </div>
-        @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group row">
-        <label class="control-label col-md-2">
-            @infoPage.LabMotPasse
-        </label>
-        <div class="col-md-4">
-            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", @Type = "password" } })
-        </div>
-        @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group row">
-        <div class="offset-md-2 col-md-10">
-            <input type="submit" value="@infoPage.BtnInscrire" class="btn btn-primary" />
         </div>
     </div>
 
-    <div id="erreur">
-        @if (ViewBag.Message != null)
-        {
-            @ViewBag.Message
-        }
-    </div>
-    <div id="erreur1">
-        @if (ViewBag.connexioOk != null)
-        {
-            @ViewBag.connexioOk
-        }
-    </div>
-
-</div>
-        }
-
-    }
-
-}
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

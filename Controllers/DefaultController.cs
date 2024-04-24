@@ -16,7 +16,7 @@ namespace ProjetEpîcerie.Controllers
 {
     public class DefaultController : Controller
     {
-        private LoloEpicerieDb Db = new LoloEpicerieDb();   
+        private SamiDb Db = new SamiDb();   
         // GET: Default
 
         public ActionResult Index()

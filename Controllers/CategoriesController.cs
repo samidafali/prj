@@ -12,7 +12,7 @@ namespace ProjetEpîcerie.Controllers
 {
     public class CategoriesController : Controller
     {
-        private LoloEpicerieDb db = new LoloEpicerieDb();
+        private SamiDb db = new SamiDb();
 
         // GET: Categories
         public ActionResult Index()

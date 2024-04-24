@@ -96,9 +96,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
-    <Content Include="Css\Acceuil.css" />
+    <Content Include="Css\aaa.css" />
     <Content Include="Global.asax" />
-    <Content Include="image\Epicerie.png" />
+    <Content Include="image\Acceuil.jpg" />
+    <Content Include="image\fond.jpg" />
+    <Content Include="image\logo2.jpg" />
+    <Content Include="image\logo3.jpg" />
     <Content Include="JS\script.jsx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -129,7 +132,7 @@
     <Compile Include="Models\Inscription.cs" />
     <Compile Include="Models\Langue.cs" />
     <Compile Include="Models\Login.cs" />
-    <Compile Include="Models\LoloEpicerieDb.cs" />
+    <Compile Include="Models\SamiDb.cs" />
     <Compile Include="Models\pageAfficherProduits.cs" />
     <Compile Include="Models\PageConnexion.cs" />
     <Compile Include="Models\PageInscription.cs" />

@@ -1,0 +1,69 @@
+﻿/* Nouveau design avec fond noir et détails oranges et nude */
+
+body {
+    background-color: #000; /* Fond noir */
+    color: #f9f9f9; /* Texte blanc */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    margin: 0;
+    padding: 0;
+}
+
+.lang-link {
+    display: none; /* Supprimer les liens de langue */
+}
+
+/* Déplacer le titre de la page vers le centre */
+.titrePage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: orange; /* Couleur orange pour le titre */
+    margin-top: 50px; /* Déplacer vers le bas */
+}
+
+/* Nouveau style pour les boutons */
+.btn-custom {
+    background-color: #f3dcb1; /* Couleur nude pour les boutons */
+    color: #000; /* Texte noir */
+    border: 2px solid #ffa500; /* Bordure orange */
+    padding: 12px 25px; /* Espacement du texte */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-size: 18px; /* Taille de police */
+    font-weight: bold; /* Texte en gras */
+    border-radius: 25px; /* Coins arrondis */
+    display: block; /* Afficher en tant que bloc */
+    width: 200px; /* Largeur fixe */
+    margin: 0 auto; /* Centrer horizontalement */
+    margin-top: 30px; /* Espacement vers le bas */
+}
+
+    /* Style de survol pour les boutons */
+    .btn-custom:hover {
+        background-color: #ffa500; /* Fond orange au survol */
+        color: #fff; /* Texte blanc au survol */
+    }
+
+/* Déplacer le contenu principal vers le centre */
+main {
+    text-align: center; /* Centrer le contenu */
+    margin-top: 100px; /* Espacement vers le bas */
+}
+
+/* Style pour le pied de page */
+footer {
+    position: fixed; /* Fixer en bas de la page */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Fond sombre pour le pied de page */
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style pour les liens du pied de page */
+#txtfooter a {
+    text-decoration: none; /* Supprimer le soulignement */
+    color: orange; /* Couleur orange pour les liens */
+    font-size: 14px; /* Taille de police */
+}

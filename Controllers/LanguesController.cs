@@ -12,7 +12,7 @@ namespace ProjetEpîcerie.Controllers
 {
     public class LanguesController : Controller
     {
-        private LoloEpicerieDb db = new LoloEpicerieDb();
+        private SamiDb db = new SamiDb();
 
         // GET: Langues
         public ActionResult Index()

@@ -5,7 +5,7 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<ProjetEpîcerie.Models.LoloEpicerieDb>
+    internal sealed class Configuration : DbMigrationsConfiguration<ProjetEpîcerie.Models.SamiDb>
     {
         public Configuration()
         {
@@ -15,7 +15,7 @@
 
         }
 
-        protected override void Seed(ProjetEpîcerie.Models.LoloEpicerieDb context)
+        protected override void Seed(ProjetEpîcerie.Models.SamiDb context)
         {
             //  This method will be called after migrating to the latest version.
 

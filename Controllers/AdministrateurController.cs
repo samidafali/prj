@@ -14,7 +14,7 @@ namespace ProjetEpîcerie.Controllers
         // GET: Administrateur
 
 
-        private LoloEpicerieDb db = new LoloEpicerieDb();
+        private SamiDb db = new SamiDb();
 
         public ActionResult AcceuilAdministrateur()
         {

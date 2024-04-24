@@ -1,85 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\",
+  "WorkspaceRootPath": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\produitstraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\produitstraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\traduitacceuils\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\traduitacceuils\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\produits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\produits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\utilisateurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\utilisateurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\paniers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\paniers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\categoriestraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\categoriestraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\administrateur\\acceuiladministrateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\administrateur\\acceuiladministrateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\views\\default\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\atw2\\projetep\u00EEceries_1\\views\\default\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\default\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\administrateur\\acceuiladministrateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\administrateur\\acceuiladministrateur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\produitstraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\produitstraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\traduitacceuils\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\traduitacceuils\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\produits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\produits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\utilisateurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\utilisateurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\paniers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\paniers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\categoriestraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\categoriestraductions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\controllers\\panierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\panierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\panierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\controllers\\administrateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\administrateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\administrateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\views\\default\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\default\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\default\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|c:\\users\\loic sagbo\\desktop\\session 5\\application2\\projetep\u00EEceries\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\models\\loloepiceriedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\models\\loloepiceriedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:models\\loloepiceriedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\models\\pagepanier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\models\\pagepanier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:models\\pagepanier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\views\\default\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\views\\default\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:views\\default\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\models\\produitstraductions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\models\\produitstraductions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8626595F-5043-4B66-B5F1-728BD8EC9D0E}|ProjetEp\u00EEcerie.csproj|solutionrelative:models\\produitstraductions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,156 +102,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Utilisateurs\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Utilisateurs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Utilisateurs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Utilisateurs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Utilisateurs\\Index.cshtml",
               "RelativeToolTip": "Views\\Utilisateurs\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:10:18.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\TraduitAcceuils\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TraduitAcceuils\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\TraduitAcceuils\\Index.cshtml",
-              "RelativeToolTip": "Views\\TraduitAcceuils\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAABYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:09:40.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\ProduitsTraductions\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ProduitsTraductions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\ProduitsTraductions\\Index.cshtml",
-              "RelativeToolTip": "Views\\ProduitsTraductions\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:09:20.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Produits\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produits\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Produits\\Index.cshtml",
-              "RelativeToolTip": "Views\\Produits\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:09:06.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T23:10:18.299Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Paniers\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Paniers\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Paniers\\Index.cshtml",
-              "RelativeToolTip": "Views\\Paniers\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAOAAAA",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\TraduitAcceuils\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TraduitAcceuils\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\TraduitAcceuils\\Index.cshtml",
+              "RelativeToolTip": "Views\\TraduitAcceuils\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:08:51.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T23:09:40.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\ProduitsTraductions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProduitsTraductions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\ProduitsTraductions\\Index.cshtml",
+              "RelativeToolTip": "Views\\ProduitsTraductions\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T23:09:20.89Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\CategoriesTraductions\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\CategoriesTraductions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\CategoriesTraductions\\Index.cshtml",
-              "RelativeToolTip": "Views\\CategoriesTraductions\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAOAAAA",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Produits\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produits\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Produits\\Index.cshtml",
+              "RelativeToolTip": "Views\\Produits\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:08:22.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T23:09:06.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Paniers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paniers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Paniers\\Index.cshtml",
+              "RelativeToolTip": "Views\\Paniers\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T23:08:51.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\CategoriesTraductions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CategoriesTraductions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\CategoriesTraductions\\Index.cshtml",
+              "RelativeToolTip": "Views\\CategoriesTraductions\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T23:08:22.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Views\\Categories\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T23:08:08.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T23:08:08.638Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ProduitsController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\ProduitsController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\ProduitsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProduitsController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\ProduitsController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\ProduitsController.cs",
               "RelativeToolTip": "Controllers\\ProduitsController.cs",
               "ViewState": "AQIAAK8AAAAAAAAAAAAcwMYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T22:59:38.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T22:59:38.793Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "PaniersController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\PaniersController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\PaniersController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaniersController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\PaniersController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\PaniersController.cs",
               "RelativeToolTip": "Controllers\\PaniersController.cs",
               "ViewState": "AQIAAGoAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T22:59:33.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T22:59:33.285Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T17:36:06.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T17:36:06.532Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Acceuil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\Acceuil.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\Acceuil.cshtml",
               "RelativeDocumentMoniker": "Views\\Default\\Acceuil.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\Acceuil.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\Acceuil.cshtml",
               "RelativeToolTip": "Views\\Default\\Acceuil.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T17:18:35.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T17:18:35.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AcceuilAdministrateur.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Administrateur\\AcceuilAdministrateur.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Administrateur\\AcceuilAdministrateur.cshtml",
               "RelativeDocumentMoniker": "Views\\Administrateur\\AcceuilAdministrateur.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Administrateur\\AcceuilAdministrateur.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Administrateur\\AcceuilAdministrateur.cshtml",
               "RelativeToolTip": "Views\\Administrateur\\AcceuilAdministrateur.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-19T17:12:03.352Z",
               "EditorCaption": ""
@@ -260,35 +249,33 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "UtilisateursController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\UtilisateursController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\UtilisateursController.cs",
               "RelativeDocumentMoniker": "Controllers\\UtilisateursController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\UtilisateursController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\UtilisateursController.cs",
               "RelativeToolTip": "Controllers\\UtilisateursController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T16:59:13.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T16:59:13.805Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "AdministrateurController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\AdministrateurController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\AdministrateurController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdministrateurController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\AdministrateurController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\AdministrateurController.cs",
               "RelativeToolTip": "Controllers\\AdministrateurController.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAqwBIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:46:10.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T12:46:10.987Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Default\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\Edit.cshtml",
               "RelativeToolTip": "Views\\Default\\Edit.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAADQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -298,9 +285,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "LoloEpicerieDb.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\LoloEpicerieDb.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\LoloEpicerieDb.cs",
               "RelativeDocumentMoniker": "Models\\LoloEpicerieDb.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\LoloEpicerieDb.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\LoloEpicerieDb.cs",
               "RelativeToolTip": "Models\\LoloEpicerieDb.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAywCkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,9 +297,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "ProduitsTraductions.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\ProduitsTraductions.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\ProduitsTraductions.cs",
               "RelativeDocumentMoniker": "Models\\ProduitsTraductions.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\ProduitsTraductions.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\ProduitsTraductions.cs",
               "RelativeToolTip": "Models\\ProduitsTraductions.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,9 +309,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "PagePanier.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\PagePanier.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\PagePanier.cs",
               "RelativeDocumentMoniker": "Models\\PagePanier.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Models\\PagePanier.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Models\\PagePanier.cs",
               "RelativeToolTip": "Models\\PagePanier.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAuwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,29 +319,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "connexion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\connexion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\connexion.cshtml",
               "RelativeDocumentMoniker": "Views\\Default\\connexion.cshtml",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Views\\Default\\connexion.cshtml",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Views\\Default\\connexion.cshtml",
               "RelativeToolTip": "Views\\Default\\connexion.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-14T13:36:28.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "DefaultController.cs",
-              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
-              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\SESSION 5\\Application2\\ProjetEp\u00EEceries\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\Loic Sagbo\\Desktop\\ATW2\\ProjetEp\u00EEceries_1\\Controllers\\DefaultController.cs",
               "RelativeToolTip": "Controllers\\DefaultController.cs",
-              "ViewState": "AQIAAO0AAAAAAAAAAAAiwAABAAANAAAA",
+              "ViewState": "AQIAAF0BAAAAAAAAAAAqwAABAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T23:36:18.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T23:36:18.21Z"
             }
           ]
         }
